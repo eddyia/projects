@@ -1,10 +1,10 @@
-#include "TestFunctionLibrary.h"
+#include "GlobalFunctionLibrary.h"
 #include "Blueprint/UserWidget.h"
-#include "MyProject2/MyUserWidget.h"
+#include "DialogueProject/MyUserWidget.h"
 #include "Kismet/GameplayStatics.h"
 #include "Engine/Engine.h"
 
-void UTestFunctionLibrary::CreateNPCDialogue(FString dialogue, float char_delay, TSubclassOf<UMyUserWidget> widgettemplate, UMyUserWidget* npcdialogueclass, APlayerController* playercontroller)
+void UGlobalFunctionLibrary::CreateNPCDialogue(FString dialogue, float char_delay, TSubclassOf<UMyUserWidget> widgettemplate, UMyUserWidget* npcdialogueclass, APlayerController* playercontroller)
 {
 	UWorld* world = playercontroller->GetWorld();
 	npcdialogueclass = CreateWidget<UMyUserWidget>(world, widgettemplate);
