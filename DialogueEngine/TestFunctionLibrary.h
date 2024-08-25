@@ -2,10 +2,10 @@
 
 #include "CoreMinimal.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
-#include "TestFunctionLibrary.generated.h"
+#include "GlobalFunctionLibrary.generated.h"
 
 UCLASS()
-class MYPROJECT2_API UTestFunctionLibrary : public UBlueprintFunctionLibrary
+class DialogueProject_API UGlobalFunctionLibrary : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
 
