@@ -8,7 +8,7 @@ public class DialogueProject : ModuleRules
 	
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "Slate", "SlateCore" });
 
-		PublicDependencyModuleNames.AddRange(new string[] { "MyProject2" });
+		PublicDependencyModuleNames.AddRange(new string[] { "DialogueProject" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 	}
