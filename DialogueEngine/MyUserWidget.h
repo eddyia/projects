@@ -7,7 +7,7 @@
 #include "MyUserWidget.generated.h"
 
 UCLASS()
-class MYPROJECT2_API UMyUserWidget : public UUserWidget
+class DialogueProject_API UMyUserWidget : public UUserWidget
 {
 	GENERATED_BODY()
 
